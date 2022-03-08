@@ -1,3 +1,7 @@
+body{
+  font: 16px/26px Arial,sans-serif;
+}
+
 /*menu*/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 .menu-main {
@@ -57,7 +61,7 @@
 /*section__block*/
 
 .section__block{
-  width: 1000px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   height: 261px;
@@ -69,9 +73,10 @@
 }
 
 .section__block-img{
-  width: 300px;
+  width: 233px;
   float: left;
   margin-right: 30px;
+  height: 145px;
 }
 
 .section__block-text{
@@ -128,7 +133,7 @@
 }
 
 .dignities-blocksHub-item{
-  font-size: 20px;
+  font-size: 19px;
   text-transform: uppercase;
   margin: 20px 0;
 }
@@ -138,6 +143,9 @@
   flex: 100%;
   max-width: 80%;
 }
+.section__block{
+  letter-spacing: 1px;
+}
 }
 
 @media screen and (max-width:600px) {
@@ -145,4 +153,33 @@
   flex: 100%;
   max-width: 100%;
 }
+
+.section__block{
+  letter-spacing: 1px;
+}
+}
+
+/*description*/
+
+.functional{
+  font-size: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.functional > h3{
+  font-size: 27px;
+}
+
+.functional__list-item{
+  list-style: none;
+}
+
+.functional__list-title{
+  margin: 0;
+  font-size: 25px;
+}
+
+.functional__list-text{
+  margin: 20px;
 }
