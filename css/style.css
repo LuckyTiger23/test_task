@@ -203,6 +203,7 @@ body{
 /*button up*/
 
 .buttonup {
+  display: none;
   width:90px; 
   position:fixed;
   bottom:20px;
@@ -213,9 +214,10 @@ body{
   width: 90px;
 }
 
-
-@media screen and (max-height:3000px) {
-body{
-  background-color: red;
+.hide{
+  display: none;
 }
+
+.view{
+  display: block;
 }
