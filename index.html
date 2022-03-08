@@ -14,9 +14,9 @@
 	<header>
 		<ul class="menu-main">
 		  <li><a href="" class="current">Главная</a></li>
-		  <li><a href="">Документация</a></li>
-		  <li><a href="">Совместимость</a></li>
-		  <li><a href="">библиотека</a></li>
+		  <li><a href="#dignities">Плюсы использования</a></li>
+		  <li><a href="#functional">Функционал</a></li>
+		  <li><a href="#documentation">Документация</a></li>
 		</ul>
 	</header>
 
@@ -30,7 +30,7 @@
 
 <!-- Плюсы vue -->
 
-	<section class="dignities">
+	<section class="dignities" id="dignities">
 		<div class="dignities-block">
 			<h3>Достоинства VUE</h3>
 			<div class="dignities-line"></div>
@@ -82,7 +82,7 @@
 	</section>
 
 
-	<section class="functional">
+	<section class="functional" id="functional">
 		<h3>Какие функции в себя включает VUE:</h3>
 		<ul class="functional__list">
 			<li class="functional__list-item">
@@ -138,30 +138,33 @@
 
 	<section class="comment">
 		<h3 class="comment__title">Xочешь узнать больше? Тогда перейди по ссылкам!</h3>
-		<ul class="commet__list">
+		<ul class="comment__list">
 			<li class="commet__list-item">
-				<a href="https://ru.vuejs.org/">
-					<p class="commet__list-item">Документация по Vue.JS</p>
+				<a id="documentation" href="https://ru.vuejs.org/">
+					<p class="comment__list-item">Документация по Vue.JS</p>
 				</a>
 			</li>
-			<li class="commet__list-item">
-				<a href="https://ru.vuejs.org/v2/guide/">
-					<p class="commet__list-item">Начало работы с Vue.JS</p>
+			<li class="comment__list-item">
+				<a href="https://habr.com/ru/company/ruvds/blog/458324/">
+					<p class="comment__list-item">Всё, что нужно для начала работы с Vue.js</p>
 				</a>
 			</li>
-			<li class="commet__list-item">
+			<li class="comment__list-item">
 				<a href="https://ru.vuejs.org/v2/guide/">
-					<p class="commet__list-item">Документация по Vue.JS</p>
+					<p class="comment__list-item">Начало работы с Vue.JS</p>
 				</a>
 			</li>
-			<li class="commet__list-item">
-				<a href="https://ru.vuejs.org/v2/guide/">
-					<p class="commet__list-item">Документация по Vue.JS</p>
+			<li class="comment__list-item">
+				<a href="https://ru.vuejs.org/v2/guide/syntax.html">
+					<p class="comment__list-item">Полезные шаблоны</p>
 				</a>
 			</li>
 		</ul>
 	</section>
 
+	<a href="#" title="Вернуться наверх" class="buttonup"><img src="images/img/up.png"></a>
+
+	
 	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 	<script src="./js/vue.js"></script>
 	<script src="./js/jq.js"></script>

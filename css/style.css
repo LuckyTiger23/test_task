@@ -139,24 +139,24 @@ body{
 }
 
 @media screen and (max-width:960px) {
-.dignities-blocksHub-container{
-  flex: 100%;
-  max-width: 80%;
-}
-.section__block{
-  letter-spacing: 1px;
-}
+  .dignities-blocksHub-container{
+    flex: 100%;
+    max-width: 80%;
+  }
+  .section__block{
+    letter-spacing: 1px;
+  }
 }
 
 @media screen and (max-width:600px) {
-.dignities-blocksHub-container{
-  flex: 100%;
-  max-width: 100%;
-}
+  .dignities-blocksHub-container{
+    flex: 100%;
+    max-width: 100%;
+  }
 
-.section__block{
-  letter-spacing: 1px;
-}
+  .section__block{
+    letter-spacing: 1px;
+  }
 }
 
 /*description*/
@@ -182,4 +182,40 @@ body{
 
 .functional__list-text{
   margin: 20px;
+}
+
+
+/*commets*/
+
+.comment{
+  max-width: 1200px;
+  margin: 150px auto;
+}
+
+.comment__title{
+  font-size: 27px;
+}
+
+.comment__list{
+  list-style: none;
+}
+
+/*button up*/
+
+.buttonup {
+  width:90px; 
+  position:fixed;
+  bottom:20px;
+  right:50px;
+}
+
+.buttonup > img {
+  width: 90px;
+}
+
+
+@media screen and (max-height:3000px) {
+body{
+  background-color: red;
+}
 }
